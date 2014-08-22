@@ -1,7 +1,9 @@
 ## This function will create a matrix and obtain its inverse. If the inverse was already obtained in previous runs,
-## the function will pull the inverse from the environment.
+## the function will pull the inverse from the environment. The main argument in this function is the matrix,
+## the rest is calculated within the function.
 
-## The function makeMatrix creates a "matrix" which is actually a list with four functions
+## The function makeMatrix creates a "matrix" which is actually a list with four functions. The argument used in the
+## function (x) is a square matrix.
 makeMatrix <- function(x) {
   Inv <- NULL
   set <- function(y) {
